@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
+const ContactController = require("./ContactController");
 
 module.exports = class MenuController {
   constructor(){
@@ -9,11 +10,13 @@ module.exports = class MenuController {
          message: "Please choose from an option below: ",
          choices: [
            "Add new contact",
+           "Get Contacts",
+           "Remind me",
            "Exit"
          ]
        }
      ];
-     this.contacts = [];
+     this.book = new ContactController();
   }
 
   main(){
@@ -22,6 +25,12 @@ module.exports = class MenuController {
      switch(response.mainMenuChoice){
        case "Add new contact":
          this.addContact();
+         break;
+       case "Get contacts":
+         this.getContactCount();
+         break;
+       case "Remind me":
+         this.remindMe();
          break;
        case "Exit":
          this.exit();
@@ -50,6 +59,13 @@ module.exports = class MenuController {
     process.exit();
   }
 
+  remindMe(){
+    return "Learning is a life-long pursuit";
+  }
+
+  getContactCount(){
+    return this.contacts.length;
+  }
 
 
 }
