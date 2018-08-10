@@ -1,0 +1,35 @@
+2018-08-02 23:32:24.864 PDT [6420] LOG:  could not bind IPv6 address "::1": Permission denied
+2018-08-02 23:32:24.864 PDT [6420] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2018-08-02 23:32:24.865 PDT [6420] LOG:  could not bind IPv4 address "127.0.0.1": Permission denied
+2018-08-02 23:32:24.865 PDT [6420] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2018-08-02 23:32:24.865 PDT [6420] WARNING:  could not create listen socket for "localhost"
+2018-08-02 23:32:24.865 PDT [6420] FATAL:  could not create any TCP/IP sockets
+2018-08-02 23:32:24.865 PDT [6420] LOG:  database system is shut down
+2018-08-03 09:57:22.094 PDT [8044] LOG:  could not bind IPv6 address "::1": Permission denied
+2018-08-03 09:57:22.094 PDT [8044] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2018-08-03 09:57:22.095 PDT [8044] LOG:  could not bind IPv4 address "127.0.0.1": Permission denied
+2018-08-03 09:57:22.095 PDT [8044] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2018-08-03 09:57:22.095 PDT [8044] WARNING:  could not create listen socket for "localhost"
+2018-08-03 09:57:22.095 PDT [8044] FATAL:  could not create any TCP/IP sockets
+2018-08-03 09:57:22.095 PDT [8044] LOG:  database system is shut down
+2018-08-07 12:07:34.199 PDT [5508] LOG:  could not bind IPv6 address "::1": Permission denied
+2018-08-07 12:07:34.199 PDT [5508] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2018-08-07 12:07:34.200 PDT [5508] LOG:  could not bind IPv4 address "127.0.0.1": Permission denied
+2018-08-07 12:07:34.200 PDT [5508] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2018-08-07 12:07:34.200 PDT [5508] WARNING:  could not create listen socket for "localhost"
+2018-08-07 12:07:34.200 PDT [5508] FATAL:  could not create any TCP/IP sockets
+2018-08-07 12:07:34.200 PDT [5508] LOG:  database system is shut down
+2018-08-07 12:12:16.353 PDT [11884] LOG:  could not bind IPv6 address "::1": Permission denied
+2018-08-07 12:12:16.353 PDT [11884] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2018-08-07 12:12:16.354 PDT [11884] LOG:  could not bind IPv4 address "127.0.0.1": Permission denied
+2018-08-07 12:12:16.354 PDT [11884] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2018-08-07 12:12:16.354 PDT [11884] WARNING:  could not create listen socket for "localhost"
+2018-08-07 12:12:16.354 PDT [11884] FATAL:  could not create any TCP/IP sockets
+2018-08-07 12:12:16.354 PDT [11884] LOG:  database system is shut down
+2018-08-07 12:17:51.064 PDT [2748] LOG:  could not bind IPv6 address "::1": Permission denied
+2018-08-07 12:17:51.064 PDT [2748] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2018-08-07 12:17:51.065 PDT [2748] LOG:  could not bind IPv4 address "127.0.0.1": Permission denied
+2018-08-07 12:17:51.065 PDT [2748] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2018-08-07 12:17:51.065 PDT [2748] WARNING:  could not create listen socket for "localhost"
+2018-08-07 12:17:51.065 PDT [2748] FATAL:  could not create any TCP/IP sockets
+2018-08-07 12:17:51.065 PDT [2748] LOG:  database system is shut down

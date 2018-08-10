@@ -34,6 +34,7 @@ describe("ContactController", () => {
     });
 
   });
+<<<<<<< HEAD
 
   describe("#getContacts()", () => {
     it("should return an empty array when no contacts are available", (done) => {
@@ -63,3 +64,6 @@ describe("ContactController", () => {
 
 
 }); //end describe OUTER
+=======
+});
+>>>>>>> contacts-and-database-assign
