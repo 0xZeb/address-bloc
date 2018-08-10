@@ -26,3 +26,10 @@
 2018-08-07 12:12:16.354 PDT [11884] WARNING:  could not create listen socket for "localhost"
 2018-08-07 12:12:16.354 PDT [11884] FATAL:  could not create any TCP/IP sockets
 2018-08-07 12:12:16.354 PDT [11884] LOG:  database system is shut down
+2018-08-07 12:17:51.064 PDT [2748] LOG:  could not bind IPv6 address "::1": Permission denied
+2018-08-07 12:17:51.064 PDT [2748] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2018-08-07 12:17:51.065 PDT [2748] LOG:  could not bind IPv4 address "127.0.0.1": Permission denied
+2018-08-07 12:17:51.065 PDT [2748] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2018-08-07 12:17:51.065 PDT [2748] WARNING:  could not create listen socket for "localhost"
+2018-08-07 12:17:51.065 PDT [2748] FATAL:  could not create any TCP/IP sockets
+2018-08-07 12:17:51.065 PDT [2748] LOG:  database system is shut down
