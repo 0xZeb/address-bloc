@@ -107,7 +107,7 @@ module.exports = class ContactController {
       if(currentContact.name > target){
         max = mid -1;
       } else if(currentContact.name < target){
-        min = mid -1;
+        min = mid +1;
       } else {
         return contacts[mid];
       }
